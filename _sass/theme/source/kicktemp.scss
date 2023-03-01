@@ -133,18 +133,18 @@ svg.kicktemp {
   fill: #fff;
 }
 
-svg.jdlogo {
+svg.wirtschaftsrundelogo {
   position: fixed;
   top: 1em;
   right: 1em;
-  width: 100px;
+  width: 150px;
   fill: #fff;
 }
 
 html.animationgif svg.kicktemp,
 html.hidekick svg.kicktemp,
-html.animationgif svg.jdlogo,
-html.hidekick svg.jdlogo {
+html.animationgif svg.wirtschaftsrundelogo,
+html.hidekick svg.wirtschaftsrundelogo {
   display:none;
 }
 
