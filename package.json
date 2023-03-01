@@ -1,0 +1,28 @@
+{
+  "name": "businesscircle",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "sh ./scripts/build.sh",
+    "serve": "sh ./scripts/serve.sh",
+    "watch": "node ./scripts/tasks/watch.js",
+    "copy": "cross-env KICK_CONFIG=copy node ./scripts/tasks/copy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.28.1",
+    "chokidar": "^3.5.3",
+    "cross-env": "^7.0.3",
+    "fs-extra": "^11.1.0",
+    "glob": "^8.1.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.2.1",
+    "reveal.js": "^4.4.0"
+  }
+}
