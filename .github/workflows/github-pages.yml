@@ -17,6 +17,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - uses: helaili/jekyll-action@2.0.5    # Choose any one of the Jekyll Actions
+        env:
+          JEKYLL_PAT: ${{ github.actor }}:${{ github.token }}
         with:                                # Some relative inputs of your action
           token: ${{ secrets.GITHUB_TOKEN }}
           target_branch: 'gh-pages'
